@@ -9,7 +9,7 @@ This code will creat a binary search tree in graphviz containing seven nodes
 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
-|   1   | [bst.dot]([https://github.com/jorcsan/2143-OOP-Santos/blob/main/Assignments/P01/main.cpp](https://github.com/jorcsan/4883-SoftwareTools-Santos/blob/main/Assignments/A01/bst.dot) | graphviz dot code     |
+|   1   | [bst.dot]([https://github.com/jorcsan/2143-OOP-Santos/blob/main/Assignments/P01/main.cpp](https://github.com/jorcsan/4883-SoftwareTools-Santos/blob/main/Assignments/A01/bst.dot)) | graphviz dot code     |
 |   2   |  [bst.png](https://github.com/jorcsan/2143-OOP-Santos/blob/main/Assignments/P01/test.out) | graphviz image    |
 
 
