@@ -2,7 +2,7 @@
 ### Jorge Santos
 ### Description:
 
-This code will creat a binary search tree in graphviz containing seven nodes
+This code will create a binary search tree in graphviz containing seven nodes
 
 
 ### Files
