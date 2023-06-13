@@ -3,7 +3,9 @@
 ### Description:
 
 This code will read in randomly generated family tree data that is in json format. It will create
-a DOT code file. THat can be copy and pasted into graphviz to make a family tree. 
+a DOT code file. THat can be copy and pasted into graphviz to make a family tree. The genders have different background colors.
+Each generation is put in a subgraph and have "rank" set to "same"
+
 
 
 ### Files
