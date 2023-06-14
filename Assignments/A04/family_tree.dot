@@ -1,0 +1,85 @@
+// Family tree
+digraph {
+    node [shape=box style=filled]
+    subgraph cluster_gen0 {
+        0 [label="leo\n1700-1775" fillcolor=lightblue shape=circle]
+        1 [label="maria\n1700-1775" fillcolor=pink shape=circle]
+    }
+    subgraph cluster_gen1 {
+        2 [label="Victor\n1728-1792" fillcolor=lightblue shape=triangle]
+        3 [label="Elizabeth\n1721-1797" fillcolor=pink shape=triangle]
+        0 -> 2
+    }
+    subgraph cluster_gen2 {
+        4 [label="Annie\n1752-1821" fillcolor=pink shape=diamond]
+        5 [label="Keith\n1749-1812" fillcolor=lightblue shape=diamond]
+        3 -> 4
+    }
+    subgraph cluster_gen3 {
+        6 [label="Rita\n1776-1854" fillcolor=pink shape=pentagon]
+        7 [label="Sean\n1789-1844" fillcolor=lightblue shape=pentagon]
+        8 [label="Mildred\n1782-1852" fillcolor=pink shape=pentagon]
+        9 [label="Clarence\n1778-1835" fillcolor=lightblue shape=pentagon]
+        15 [label="Terry\n1813-1910" fillcolor=lightblue shape=pentagon]
+        32 [label="Randy\n1790-1864" fillcolor=lightblue shape=pentagon]
+        5 -> 6
+        5 -> 8
+        5 -> 32
+    }
+    subgraph cluster_gen4 {
+        10 [label="Vincent\n1821-1913" fillcolor=lightblue shape=hexagon]
+        11 [label="Deborah\n1814-1903" fillcolor=pink shape=hexagon]
+        13 [label="Crystal\n1875-1932" fillcolor=pink shape=hexagon]
+        16 [label="Marjorie\n1849-1935" fillcolor=pink shape=hexagon]
+        17 [label="Gary\n1859-1938" fillcolor=lightblue shape=hexagon]
+        22 [label="Ruth\n1856-1948" fillcolor=pink shape=hexagon]
+        23 [label="Ronald\n1850-1932" fillcolor=lightblue shape=hexagon]
+        25 [label="Lee\n1906-1969" fillcolor=lightblue shape=hexagon]
+        9 -> 10
+        15 -> 16
+        15 -> 22
+    }
+    subgraph cluster_gen5 {
+        12 [label="Steven\n1858-1922" fillcolor=lightblue shape=septagon]
+        14 [label="Jeremy\n1917-1924" fillcolor=lightblue shape=septagon]
+        18 [label="Lisa\n1878-1955" fillcolor=pink shape=septagon]
+        19 [label="Chad\n1886-1964" fillcolor=lightblue shape=septagon]
+        24 [label="Justin\n1894-1977" fillcolor=lightblue shape=septagon]
+        26 [label="Kathryn\n1934-2021" fillcolor=pink shape=septagon]
+        27 [label="Justin\n1947-2032" fillcolor=lightblue shape=septagon]
+        28 [label="Russell\n1944-2004" fillcolor=lightblue shape=septagon]
+        29 [label="Joanne\n1960-2023" fillcolor=pink shape=septagon]
+        31 [label="Joshua\n1948-2032" fillcolor=lightblue shape=septagon]
+        11 -> 12
+        13 -> 14
+        17 -> 18
+        23 -> 24
+        25 -> 26
+        25 -> 28
+        25 -> 31
+    }
+    subgraph cluster_gen6 {
+        20 [label="Edna\n1911-1967" fillcolor=pink shape=octagon]
+        21 [label="Kenneth\n1915-1999" fillcolor=lightblue shape=octagon]
+        30 [label="Judith\n2002-2077" fillcolor=pink shape=octagon]
+        19 -> 20
+        29 -> 30
+    }
+    1 -> 0 [label=married arrowhead=none color=red constraint=false]
+    3 -> 2 [label=married arrowhead=none color=red constraint=false]
+    5 -> 4 [label=married arrowhead=none color=red constraint=false]
+    7 -> 6 [label=married arrowhead=none color=red constraint=false]
+    9 -> 8 [label=married arrowhead=none color=red constraint=false]
+    11 -> 10 [label=married arrowhead=none color=red constraint=false]
+    13 -> 10 [label=married arrowhead=none color=red constraint=false]
+    15 -> 8 [label=married arrowhead=none color=red constraint=false]
+    17 -> 16 [label=married arrowhead=none color=red constraint=false]
+    19 -> 18 [label=married arrowhead=none color=red constraint=false]
+    21 -> 20 [label=married arrowhead=none color=red constraint=false]
+    23 -> 22 [label=married arrowhead=none color=red constraint=false]
+    25 -> 22 [label=married arrowhead=none color=red constraint=false]
+    27 -> 26 [label=married arrowhead=none color=red constraint=false]
+    29 -> 28 [label=married arrowhead=none color=red constraint=false]
+}
+
+ 
