@@ -12,7 +12,7 @@ Finally, use PySimpleGui tabular view to display the data received from the init
 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
-|   1   | [main.py](https://github.com/jorcsan/4883-SoftwareTools-Santos/blob/main/Assignments/A01/bst.dot)| graphviz dot code     |
+|   1   | [main.py](https://github.com/jorcsan/4883-SoftwareTools-Santos/blob/main/Assignments/A07/main-10.py)| python main driver    |
 
 
 ### example 1
