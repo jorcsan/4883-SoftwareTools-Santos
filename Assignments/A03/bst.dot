@@ -1,3 +1,4 @@
+
 digraph linkedlist {
         
         node [shape=record,color=purple];
