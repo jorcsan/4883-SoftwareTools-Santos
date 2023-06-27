@@ -35,4 +35,4 @@ In a branch you can edit code and than later on merge the code with the main bra
 
 [make a badge](https://docs.replit.com/programming-ide/using-git-on-replit/running-github-repositories-replit#adding-a-run-on-replit-badge)
 
-you can place a bdage in your repos readme that will run the Repo on replit automatically.
+you can place a badge in your repos readme that will run the Repo on replit automatically.
