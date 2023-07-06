@@ -155,8 +155,9 @@ async def cases(country:str = None,year:int = None):
     """
 
     @app.get("/max_deaths/")
+
 async def max_deaths():
-    """
+    """"
     this method will return the country with the most amount of deaths and its number of deaths
     - ** Params: **
     - country(str): a country name
@@ -189,7 +190,7 @@ async def max_deaths():
 
 
 
-"""
+""""
 
 
 @app.get("/min_deaths/")
