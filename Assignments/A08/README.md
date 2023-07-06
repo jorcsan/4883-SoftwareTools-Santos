@@ -12,7 +12,7 @@ The country with the most or least deahts and more.
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
 |   1   | [data.csv](https://github.com/jorcsan/4883-SoftwareTools-Santos/blob/main/Assignments/A08/data.csv)| csv file containin covid data     |
-|   2   |  [main.py]() | python code to generate dot code    |
+|   2   |  [main.py](https://github.com/jorcsan/4883-SoftwareTools-Santos/blob/main/Assignments/A08/main-8.py) | python code to generate dot code    |
 
 
 
