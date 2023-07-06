@@ -3,6 +3,8 @@
 
 
 
+https://docs.replit.com/programming-ide/using-git-on-replit/use-gui![image](https://github.com/jorcsan/4883-SoftwareTools-Santos/assets/123038198/ac9a566a-0521-4b05-90ff-857cdb0bd33d)
+
 
 
 
