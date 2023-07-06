@@ -2,7 +2,6 @@
 ### Jorge Santos
 
 
-[image](https://github.com/jorcsan/4883-SoftwareTools-Santos/assets/123038198/6cfeb9d9-6495-4eca-8c48-80049c0f0e19)
 
 
 
